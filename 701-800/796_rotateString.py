@@ -10,9 +10,6 @@ class Solution:
             return False
         else:
             for i in range(0, s_len):
-                print(i)
-                print("S: " + temp)
-                print("G: " + goal)
                 if temp == goal:
                     return True
                 else:
